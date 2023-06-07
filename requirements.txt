@@ -1,0 +1,7 @@
+tensorflow>=2.12.0
+numpy
+matplotlib
+nibabel
+scipy
+datetime==5.1
+pandas
