@@ -1,12 +1,6 @@
 
-import numpy as np
-from pandas import read_csv
 import tensorflow as tf
 from tensorflow import keras
-from sklearn.metrics import classification_report
-import sklearn
-import skimage as ski
-import skimage.feature
 
 def get_model(width=128, height=128, depth=64): #3.66
     """Build a 3D convolutional neural network model."""

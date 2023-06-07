@@ -1,12 +1,6 @@
 
 import numpy as np
-from pandas import read_csv
 import tensorflow as tf
-from tensorflow import keras
-from sklearn.metrics import classification_report
-import sklearn
-import skimage as ski
-import skimage.feature
 
 def NormalizeData(data):
     return (data - np.min(data)) / (np.max(data) - np.min(data))

@@ -1,13 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import os
-import skimage as ski
-import skimage.feature
-import matplotlib.pyplot as plt
-import nibabel as nib
-import nibabel.freesurfer.mghformat as mgh
-from scipy.ndimage import zoom
-from glob import glob
 
 
 def processmgz(brains):
