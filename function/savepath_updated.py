@@ -17,15 +17,8 @@ def filename_pred(path_of_mgz):
     date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
     date_time = date_time.split(", ")
     month, day, year = date_time[0].split("/")
-    brain_save_path_1 = os.path.join(path_of_mgz, 'BA_' + year + '-' + month + '-' + day + '-' + date_time[1] + '.npy')
-    brain_save_path_2 = os.path.join(path_of_mgz, 'BA_' + year + '-' + month + '-' + day + '-' + date_time[1] + '.csv')    
-    # brain_save_path_1 = os.path.join(path_of_mgz, 'BA_' + time_split[5] + '-' + str(dic[str(time_split[1])][0]) +
-    #                           '-' +time_split[3] +'_'+time_split[4].split(":")[0] + '-' +
-    #                           time_split[4].split(":")[1] + '-' + time_split[4].split(":")[2] + '.npy')
-    # brain_save_path_2 = os.path.join(path_of_mgz, 'BA_' + time_split[5] + '-' + str(dic[str(time_split[1])][0]) +
-    #                           '-' +time_split[3] +'_'+time_split[4].split(":")[0] + '-' +
-    #                           time_split[4].split(":")[1] + '-' + time_split[4].split(":")[2] + '.csv')    
-    return brain_save_path_1, brain_save_path_2
+    brain_save_path_csv = os.path.join(path_of_mgz, 'BA_' + year + '-' + month + '-' + day + '-' + date_time[1] + '.csv')    
+    return brain_save_path_csv
     
 def filename_smap(path_of_mgz):
     now = datetime.now()
