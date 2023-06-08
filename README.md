@@ -5,12 +5,7 @@ Sample code to calculate BA in a sample subject is provided in "/function/3D_CNN
 Yin, Chenzhong, et al. "Anatomically interpretable deep learning of brain age captures domain-specific cognitive impairment." Proceedings of the National Academy of Sciences 120.2 (2023): e2214634120.
 
 # Install modules and packages required by 3D-CNN model
-Click the **Applications** folder in your dock, then **Utilities**, then **Terminal**. You'll be faced with something that looks a little like this:
-```
-$
-```
-
-This is where you type your commands. When you see the ``$`` in the following examples, *don't* type it. It's just there to show you where commands are being entered. Press enter after you type a command to execute it.
+Click the **Applications** folder in your dock, then **Utilities**, then **Terminal**. 
 Type the command after the dollar sign and hit enter:
 ```
 $ pip install -r requirements.txt
