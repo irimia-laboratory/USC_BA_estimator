@@ -1,7 +1,8 @@
 # USC BA estimator
-Our architecture requires a freesurfer processed T1-weighted MRI scan as input to predict brain age. Users must first create the brain.mgz file using the FreeSurfer software, which is available for free at https://surfer.nmr.mgh.harvard.edu/. 
+Our architecture requires a FreeSurfer processed T1-weighted MRI scan as input to predict brain age. Users must first create the brain.mgz file using the FreeSurfer software, available for free at https://surfer.nmr.mgh.harvard.edu/. 
 
-We have provided sample code in the "/main.ipynb" file to calculate BA for a sample subject. We recommend using Jupyter notebook to execute our code. Please note that this software is only valid for estimating the brain ages of individuals over the age of 21. For individuals under the age of 21, estimated brain ages may not be accurate. 
+We have provided sample code in the "/main.ipynb" file to calculate BA for a sample subject. We recommend using Jupyter Notebook to execute our code. Please note that this software is only valid for estimating the brain ages of individuals older than 21 years. Estimated brain ages may not be accurate for individuals younger than 21 years.
+
 
 Direct all questions and comments to irimia@usc.edu.  Please acknowledge the original publication when using this code:
 
