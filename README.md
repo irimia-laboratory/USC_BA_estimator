@@ -17,3 +17,6 @@ $ pip install -r requirements.txt
 
 ## Optional step:
 The main file includes a function to generate saliency maps. Saliency maps highlight the regions that are important to the network while predicting. In our case, the saliency maps highlight regions that are important for BA prediction according to the network. 
+
+###
+Copyright for the code belongs to University of Southern California.

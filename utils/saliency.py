@@ -1,3 +1,4 @@
+## Copyright for this code belongs to University of Southern California.
 import tensorflow as tf
 import numpy as np
 
