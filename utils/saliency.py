@@ -31,3 +31,17 @@ def saliencyMap(model, X, normalize=False):
             saliencyMaps.append(gradMax)
     
     return np.asarray(saliencyMaps)
+
+def postProcess(smap, brains):
+    smap2 = []
+    for idx, brain in enumerate(brains):
+        # remove saliency outside the brain
+        brainMask  = np.where(brain>1, 1, 0)
+        tempSal = smap[idx]*brainMask
+        
+        # convert to saliency probability
+        tempSal=tempSal/np.sum(tempSal)
+        
+        smap2.append(tempSal)
+    
+    return np.asarray(smap2)
